@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My basic portfolio</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/128/15735/15735364.png"
+    />
+    <!-- <link rel="stylesheet" href="/style.css" /> -->
+    <style>
+      * {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+body {
+  /* background-color: #0d2536; */
+  background-color: black;
+  color: white;
+}
+.listitem {
+  display: inline;
+  margin: 13px;
+}
+.ancleTag {
+  text-decoration: none;
+  color: black;
+}
+.navi {
+  background-color: #79a1cf;
+  height: 25px;
+  padding: 3px;
+  padding-top: 5px;
+  font-weight: 550;
+  width: 500px;
+  border-radius: 20px;
+  margin: 20px auto;
+  border: 1.5px solid;
+  border-color: #065084;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+.intropara {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.title {
+  background: linear-gradient(to right, #00ffff 0%, orange 8%, red 20%);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 10px;
+}
+section {
+  background-color: #065084;
+  /* background-color: #234a76; */
+  width: 20px 30px;
+  margin: 35px;
+  padding: 20px 10px 20px 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 23px rgb(71, 71, 213);
+  transition: all 0.05s linear 0.05s;
+}
+.cont {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.colour {
+  color: rgb(8, 230, 215);
+}
+li {
+  padding-top: 5px;
+}
+.data {
+  display: inline;
+  padding: 8px 70px 8px 70px;
+  margin: 0px 15px 0px 0px;
+  background-color: #bacdee;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #065084;
+}
+.ended {
+  margin-left: 1135px;
+  background-color: #91bddb;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+section:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.promax {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #bacdee;
+  color: black;
+  padding: 8px;
+  margin: 10px 10px 0px 10px;
+}
+.kmargin {
+  margin-left: 15px;
+}
+    </style>
+  </head>
+  <header>
+  <body>
+    <video
+      class="vid"
+      src="/Day3/Sathish_intro.mp4"
+      width="100%"
+      height="100%"
+      loop
+      muted
+      autoplay
+    ></video>
+    <nav class="navi">
+      <ul>
+        <li class="listitem">
+          <a class="ancleTag" href="#About Me">About Me</a>
+        </li>
+        <li class="listitem">
+          <a class="ancleTag" href="#Skills">Skills</a>
+        </li>
+        <li class="listitem">
+          <a class="ancleTag" href="#Projects">Projects</a>
+        </li>
+        <li class="listitem">
+          <a class="ancleTag" href="#Contact">Contact</a>
+        </li>
+        <li class="listitem">
+          <a class="ancleTag" href="/sathish.resume.pdf" download
+            >Download Resume</a
+          >
+        </li>
+      </ul>
+    </nav>
+</header>
+    <p class="intropara">
+      Welcome to my portfolio website! Use the navigation below to explore
+    </p>
+    <main>
+      <section>
+        <h2 class="title" id="About Me">About Me</h2>
+        <p>
+          I am a passionate and dedicated Java Full Stack Developer with a
+          strong foundation in both front-end and back-end technologies, I
+          specialize in building scalable, efficient, and user-friendly web
+          applications using core Java, Spring Framework, Hibernate, JavaScript,
+          HTML, CSS, and modern front-end frameworks. With a background in
+          business administration and hands-on experience in full stack
+          development, I bring a unique blend of technical expertise and
+          business insight to deliver impactful software solutions. I am
+          continuously improving my skills and actively seeking opportunities to
+          contribute to innovative projects in a collaborative environment.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="title" id="Skills">Skills</h2>
+        <ul class="kmargin">
+          <li>JSE</li>
+          <li>JEE</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JDBC</li>
+          <li>Java Script</li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="title">Learning Goals</h2>
+        <ol class="kmargin">
+          <li>
+            Advanced Frontend Develpment
+            <ul>
+              <li style="margin-top: 3px">React JS</li>
+              <li>Next JS</li>
+            </ul>
+          </li>
+          <li style="margin-top: 7px">AI Integration in web Apps</li>
+        </ol>
+      </section>
+      <section>
+        <h2 class="title">Tech Glossary</h2>
+        <div class="promax">
+          <dt>API</dt>
+          <dd>Application Programming iInterface for System Communication.</dd>
+        </div>
+        <div class="promax">
+          <dt>CI/CD</dt>
+          <dd>Continuous Integration and Continuos Deployment Practices.</dd>
+        </div>
+      </section>
+      <section>
+        <h2 class="title" style="margin-bottom: 20px" id="Projects">
+          Projects
+        </h2>
+        <ul>
+          <li class="data">Task Manager App</li>
+          <li class="data">Weather Application</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <h2 class="title" id="Contact">Contact</h2>
+        <ul class="kmargin">
+          <li>
+            Phone:
+            <a class="colour" href="tel: +91 8098326892">+91 8098326892</a>
+          </li>
+          <li>
+            Email:
+            <a class="colour" href="mailto:sathishprabhakar2205@gmail.com"
+              >sathishprabhakar2205@gmail.com</a
+            >
+          </li>
+        </ul>
+        <h3 class="cont" id="cont">Contact with me via:</h3>
+        <a href="https://www.linkedin.com/in/sathishkumar077/" target="-blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/128/3665/3665214.png"
+            alt="logo not found"
+            height="40px"
+            width="40px"
+        /></a>
+        <a
+          href="https://github.com/SathishKumar-hub?tab=repositories"
+          target="-blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/128/5968/5968896.png"
+            alt="logo not found"
+            height="40px"
+            width="40px"
+        /></a>
+        <a href="https://www.instagram.com/sathish_07____/" target="-blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/128/4138/4138124.png"
+            alt="logo not found"
+            height="40px"
+            width="40px"
+        /></a>
+      </section>
+      <button class="ended">
+        <a style="text-decoration: none" href="#top">&#8657; Back To Top</a>
+      </button>
+    </footer>
+  </body>
+</html>
